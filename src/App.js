@@ -14,7 +14,7 @@ const App = () => {
         <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com" />
 
         <div>
-          <CoolButton isSmall isDanger className="is-rounded my-class" >Button 1</CoolButton>
+          <CoolButton  isDanger className="is-rounded my-class" >Button 1</CoolButton>
           <CoolButton isSmall isSuccess>Button 2</CoolButton>
         </div>
 
