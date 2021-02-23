@@ -38,6 +38,7 @@ const CoolButton = (props) => {
     // if (props.isDanger) {className += ' is-danger'}
     // if (props.isSuccess) {className += ' is-success'}
 
+    // BONUS!
     for (let i in allSortButtons) {
         if (props[i]) {
             className += ' ' + allSortButtons[i]
@@ -46,7 +47,7 @@ const CoolButton = (props) => {
 
     return (
         <span>
-            <button className={className}>button 2</button>  
+            <button className={className}>{props.label}</button>  
         </span>
     )
 }
