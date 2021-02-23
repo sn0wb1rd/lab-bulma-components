@@ -1,9 +1,9 @@
 import React from 'react';
 
 import 'bulma/css/bulma.css';
-import Navbar from './navbar/Navbar.js'
-import FormField from './formfield/FormField.js'
-import CoolButton from './coolbutton/CoolButton.js'
+// import Navbar from './navbar/Navbar.js' // not needed in it 4
+// import FormField from './formfield/FormField.js' // not needed in it 4
+// import CoolButton from './coolbutton/CoolButton.js' // not needed it 4
 import Signup from './signup/Signup.js';
 
 const App = () => {
@@ -20,8 +20,8 @@ const App = () => {
 
         {/*It 3 */}
         {/* <div>
-          <CoolButton label= "log out" isSmall isDanger className="is-rounded my-class" >Button 1</CoolButton>
-          <CoolButton label= "log in" isSmall isSuccess>Button 2</CoolButton>
+          <CoolButton label= "Log out" isSmall isDanger className="is-rounded my-class" >Button 1</CoolButton>
+          <CoolButton label= "Log in" isSmall isSuccess>Button 2</CoolButton>
         </div> */}
 
 

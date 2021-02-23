@@ -31,9 +31,9 @@ const allSortButtons = {
 
 const CoolButton = (props) => {
     
-    // console.log(props)
     // dont forget the space in the Burma classnames
     let className = 'button ' + props.className
+    // It 3
     // if (props.isSmall) {className += ' is-small'}
     // if (props.isDanger) {className += ' is-danger'}
     // if (props.isSuccess) {className += ' is-success'}
